@@ -1,7 +1,6 @@
 package com.embarkx.jobms.job.mapper;
 
 import com.embarkx.jobms.job.Job;
-import com.embarkx.jobms.job.dto.JobDTO;
 import com.embarkx.jobms.job.external.Company;
 import com.embarkx.jobms.job.external.Review;
 
