@@ -3,3 +3,16 @@ kubectl get pods
 
 minikube dashboard
 minkube service zipkin --url
+
+kubectl get all
+kubectl apply -f .\k8s\bootstrap\job\
+kubectl apply -f .\k8s\bootstrap\review\
+kubectl apply -f .\k8s\bootstrap\company\
+
+
+minikube service job --url
+
+kubectl get all
+
+kubectl exec -it postgres-0 -- psql -U maysara
+\l
