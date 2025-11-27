@@ -1,9 +1,8 @@
 package com.embarkx.jobms.job.dto;
 
-import com.embarkx.jobms.job.Job;
 import com.embarkx.jobms.job.external.Company;
 
-public class JobWithCompanyDTO {
+public class JobDTO {
     private Long id;
     private String title;
     private String description;
