@@ -1,0 +1,2 @@
+kubectl apply -f first-pod.yaml
+kubectl get pods
